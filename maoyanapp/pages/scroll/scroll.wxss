@@ -1,0 +1,46 @@
+/* pages/scroll/scroll.wxss */
+
+/* pages/scroll/scroll.wxss */
+
+.v1{
+  width:100%;
+  height: 100px;
+  background-color: red;
+  display:inline-block;
+}
+
+.v2{
+  width:100%;
+  height: 100px;
+  background-color: blue;
+  display:inline-block;
+}
+
+.v3{
+  width:100%;
+  height: 100px;
+  background-color: green;
+  display:inline-block;
+}
+
+.v4{
+  width:100%;
+  height: 100px;
+  background-color: gray;
+  display:inline-block;
+}
+
+.v5{
+  width:100%;
+  height: 100px;
+  background-color: purple;
+  display:inline-block; /**横着排**/
+}
+
+.v6{
+  width:100%;
+  height: 100px;
+  background-color: aqua;
+  display:inline-block;
+}
+

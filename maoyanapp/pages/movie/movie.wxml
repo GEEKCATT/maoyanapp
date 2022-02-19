@@ -1,0 +1,50 @@
+<wxs module="tools">
+
+  module.exports = function(url)
+   {
+     return url.replace('w.h','80.80');
+   } 
+</wxs>
+
+
+<swiper indicator-dots="true" indicator-active-color="white"  circular="true" autoplay="true">
+   <swiper-item>
+      <image class="swiperimg" src="/images/swiper1.png"></image>
+   </swiper-item>
+   <swiper-item>
+      <image class="swiperimg" src="/images/swiper2.png"></image>
+   </swiper-item>
+   <swiper-item>
+      <image class="swiperimg" src="/images/swiper3.png"></image>
+   </swiper-item>
+</swiper>
+
+<scroll-view scroll-y="true" style="height:{{scrollHeight}}">
+<!-- <scroll-view scroll-y="true" style="height:300px;width:100%;white-space:nowrap"> -->
+<navigator wx:for="{{list}}" wx:key="*this" url="/pages/details/details?id={{item.id}}">
+<view class="item">
+  <view class="left">
+    <image class="img" mode="aspectFit"  src="{{tools(item.img)}}"></image>
+  </view>
+
+  <view class="middle">
+     <view>{{item.nm}}</view>
+     <view>{{item.showInfo}}</view>
+     <view>{{item.star}}</view>
+  </view>
+
+  <view class="right">
+    <view>{{item.sc}}</view>
+    <button size="mini"  type="primary">购票</button>
+  </view>
+
+</view>
+</navigator>
+</scroll-view>
+
+
+
+
+
+
+

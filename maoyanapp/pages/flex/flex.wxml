@@ -1,0 +1,11 @@
+ <view class="v1">
+  <image class="avatar" mode="aspectFit"  src="https://gw.alipayobjects.com/mdn/prod_resou/afts/img/A*OwZWQ68zSTMAAAAAAAAAAABkARQnAQ"></image>
+
+</view>
+
+<view class="v2">
+   <view class="v2_1"></view>
+   <view class="v2_2"></view>
+   <view class="v2_3"></view>
+  
+</view>

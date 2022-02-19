@@ -1,0 +1,50 @@
+.v1{
+  text-align: center;
+}
+
+.t1{
+  color:red;
+  font-size: 22px;
+  font-weight: bold;
+  background-color: aqua;
+  line-height: 40px;
+}
+
+.m1{
+  height: 120px;
+}
+
+.m2{
+  width:100px;
+  height: 100px;
+  background-color: red;
+  margin:auto;
+  padding-top:20px;
+  padding-left:20px;
+  box-sizing: border-box;
+}
+
+.m3{
+  width:100px;
+  height: 100px;
+  background-color: blue;
+  margin:auto;
+  border-radius: 50%;/**本身宽的50%**/
+}
+
+.avatar{
+  width:60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-left:130px;
+}
+
+/**
+view: margin上下左右都好用
+      margin:auto-> 上下为0，左右自动居中
+
+text: margin上下不好用，左右好用，margin:auto不好用
+
+**/
+
+

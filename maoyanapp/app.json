@@ -1,0 +1,53 @@
+
+{
+
+  "pages":[
+    "pages/movie/movie",
+    "pages/scroll/scroll",
+    "pages/details/details",   
+    "pages/request/request",   
+    "pages/logic/logic",
+    "pages/flex/flex",
+    "pages/style/style",
+    "pages/info/info",
+    "pages/index/index",
+    "pages/logs/logs"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "猫眼电影APP",
+    "navigationBarTextStyle":"white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/movie/movie",
+      "text": "热映",
+      "iconPath": "/images/tab1.png",
+      "selectedIconPath": "/images/tab1_selected.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "即将上映",
+      "iconPath": "/images/tab2.png",
+      "selectedIconPath": "/images/tab2_selected.png"
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "影院",
+      "iconPath": "/images/tab3.png",
+      "selectedIconPath": "/images/tab3_selected.png"
+    }
+  ]
+  }
+  
+}
+
+
+
+
+

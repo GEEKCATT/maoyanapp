@@ -1,0 +1,17 @@
+<!--pages/logic/logic.wxml-->
+<text>{{msg}}</text>
+
+
+<text>{{msg2}}</text>
+
+<view wx:if="{{flag}}">
+  <text>some text </text>
+</view>
+
+
+<button bindtap="changeMsg">改变值</button>
+<button bindtap="toggle">toggle</button>
+
+<view wx:for="{{list}}">
+     <Text>{{item.title}}</Text> |   <Text>{{item.pubicDate}}</Text> |   <Text>{{item.star}}</Text>
+</view>

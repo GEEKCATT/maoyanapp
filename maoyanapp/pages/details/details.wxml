@@ -1,0 +1,22 @@
+<wxs module="tools">
+
+module.exports = function(url)
+ {
+   return url.replace('w.h','300.300');
+ } 
+
+</wxs>
+
+<!--pages/details/details.wxml-->
+<block wx:if="{{movie.img}}">
+  <image src="{{tools(movie.img)}}"></image>
+  <view class="nm">{{movie.nm}}({{movie.cat}})</view>
+  <view class="info">评分：{{movie.sc}}</view>
+  <view class="info">导演:{{movie.dir}}</view>
+  <view class="info">主演:{{movie.star}}</view>
+  <view>摘要</view>
+  <view class="info">{{movie.dra}}</view>
+
+</block>
+
+

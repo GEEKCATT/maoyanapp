@@ -1,0 +1,19 @@
+<!--pages/style/style.wxml-->
+<view class="v1">
+  <text class="t1">pages/style/style.wxml</text>
+</view>
+<view class="v1">
+  <text class="t1">pages/style/style.wxml</text>
+</view>
+
+<image class="m1" mode="center" src="https://gw.alipayobjects.com/mdn/prod_resou/afts/img/A*OwZWQ68zSTMAAAAAAAAAAABkARQnAQ"></image>
+
+<view class="m2">
+  <Text class="t3">some text</Text>
+</view>
+
+<view class="m3"></view>
+
+
+<image class="avatar" mode="aspectFit"  src="https://gw.alipayobjects.com/mdn/prod_resou/afts/img/A*OwZWQ68zSTMAAAAAAAAAAABkARQnAQ"></image>
+

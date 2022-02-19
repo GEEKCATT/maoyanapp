@@ -1,0 +1,28 @@
+/* pages/details/details.wxss */
+page{
+  width:100%;
+  padding-top:20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+image{
+  width:200px;
+  margin-left:40px;
+
+}
+
+view
+{
+  line-height: 30px;
+}
+
+.nm{
+  text-align: center;
+}
+
+.info{
+  color:gray;
+  font-size: 14px;
+}

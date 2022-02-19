@@ -1,0 +1,20 @@
+<!--pages/info/info.wxml-->
+
+<view>
+  <text>pages/info/info.wxml</text>
+</view>
+<view>
+  <text>some text some text some text</text>
+</view>
+
+<image class="m1" mode="top" src="https://gw.alipayobjects.com/mdn/prod_resou/afts/img/A*OwZWQ68zSTMAAAAAAAAAAABkARQnAQ"></image>
+
+<image class="m2" mode="top" src="/images/1.png"></image>
+
+<video src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400"></video>
+
+<!-- <audio controls="controls" author="许巍" name="故乡" poster="http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000" src="/audio/1.mp3"></audio> -->
+
+<audio controls="controls" author="许巍" name="故乡" poster="http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000" src="https://sharefs.yun.kugou.com/202101181053/33dee04266418f42c1811ef2ac487a68/G189/M0A/10/03/_Q0DAF5V9FeAesdLAFj4YaoV-iU979.mp3"></audio>
+
+<audio controls="controls" author="eagles" name="Hotel California" poster="https://img.konami.com/yugioh/duel_links/en/images/en/mainvisual-4thaniv_pc.png" src="https://sharefs.yun.kugou.com/202101181053/33dee04266418f42c1811ef2ac487a68/G189/M0A/10/03/_Q0DAF5V9FeAesdLAFj4YaoV-iU979.mp3"></audio>

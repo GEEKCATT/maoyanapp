@@ -1,0 +1,12 @@
+<!--pages/scroll/scroll.wxml-->
+<text>pages/scroll/scroll.wxml</text>
+
+<scroll-view scroll-x="true" style="height:100px;width:100%;white-space:nowrap">
+   <view class="v1"></view>
+   <view class="v2"></view>
+   <view class="v3"></view>
+   <view class="v4"></view>
+   <view class="v5"></view>
+   <view class="v6"></view>
+</scroll-view>
+
